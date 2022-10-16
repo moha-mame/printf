@@ -13,7 +13,7 @@ int (*find_function(const char *format))(va_list)
 		{"s", print_s},
 		{"i", print_i},
 		{"d", print_d},
-		/*{"b", print_bin},*/
+		{"b", print_bin},
 		 {"u", print_unsig},
 		 {"o", print_octal},
 		 {"x", print_x},
