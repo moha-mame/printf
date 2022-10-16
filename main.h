@@ -7,12 +7,12 @@
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-int print_char(va_list c);
-int print_string(va_list s);
-int print_int(va_list i);
-int print_dec(va_list d);
-int print_rev(va_list r);
+int print_c(va_list c);
+int print_s(va_list s);
+int print_d(va_list d);
+int print_i(va_list i);
 int print_bin(va_list b);
+int print_rev(va_list r);
 int print_unsig(va_list u);
 int print_octal(va_list o);
 int print_x(va_list x);
