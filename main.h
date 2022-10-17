@@ -23,6 +23,8 @@ int print_rev(va_list r);
 int print_p(va_list p);
 int print_rot13(va_list R);
 char *itoa(long int, int);
+int is_digit(char);
+int print_width(const char *format, int *i, va_list w);
 /**
   * struct code_format - Struct format
   *
