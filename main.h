@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#define BUFF_SIZE 1024
 #include <unistd.h>
 #include <stdarg.h>
 #include <stdio.h>
@@ -36,4 +37,21 @@ typedef struct code_format
 	char *sc;
 	int (*f)(va_list);
 } code_f;
+/**
+ * struct tags - Format tags after %
+ * @flags: the flags
+ */
+typedef struct tags
+{
+	char flags[6];
+} tags;
+
+/* printf_flag_helper functions */
+/* FLAGS */
+#define F_MINUS 1
+/*******************************************/
+int get_flags(const char *format, int *i);
+
+
+
 #endif
