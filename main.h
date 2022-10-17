@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <limits.h>
+#include <string.h>
 
 int _putchar(char c);
 int _printf(const char *format, ...);
@@ -19,7 +20,9 @@ int print_x(va_list x);
 int print_X(va_list X);
 int print_S(va_list S);
 int print_rev(va_list r);
+int print_p(va_list p);
 int print_rot13(va_list R);
+char *itoa(long int, int);
 /**
   * struct code_format - Struct format
   *
