@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * find_function - determines the type of format passed
+ * find_function - determines the format specified 
  * @format: function
  * Return: Null
  */
