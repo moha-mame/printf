@@ -27,10 +27,10 @@ char *itoa(long int, int);
 int is_digit(char);
 int print_width(const char *format, int *i, va_list w);
 /**
-  * struct code_format - Struct format
+  * struct code_format - code format structure
   *
-  * @sc: The specifiers
-  * @f: The function associated
+  * @sc: specifies the passed format
+  * @f: function passed
   */
 typedef struct code_format
 {
