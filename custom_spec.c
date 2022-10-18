@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * get_reverse - Get the reversed copy of the string.
+ * get_reverse - brings the reversed string
  * @args: va_list containing the string.
  * @mods: length modifiers, voided, not used with this specifier
  *

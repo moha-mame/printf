@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strlen - gets length of string, not including null byte
+ * _strlen - gets length of string
  * @str: string to get length of
  *
  * Return: length of string
