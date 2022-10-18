@@ -38,7 +38,7 @@ typedef struct code_format
 	int (*f)(va_list);
 } code_f;
 /**
- * struct tags - Format tags after %
+ * struct tags - these are format tags after the %
  * @flags: the flags
  */
 typedef struct tags
