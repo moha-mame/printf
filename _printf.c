@@ -3,8 +3,8 @@
 int print_helper(printh_t *help_s, va_list args);
 printh_t *init_help_s(const char *, va_list args);
 /**
-  * _printf - Prints variatic arguments based on format string.
-  * @format: String passed, may contain zero, or more directives.
+  * _printf - prints formated string by reffering specifiers
+  * @format: String passed
   *
   * Return: Number of characters printed to stdout.
   */
@@ -80,7 +80,7 @@ int _printf(const char *format, ...)
 	return (t_bytes);
 }
 /**
- * print_helper - print helper function to split up logic of _printf
+ * print_helper - function to split up logic of _printf
  * @help_s: pointer to our helper struct to contain variables for passing
  * @args: va_list of args to advance and use
  *
@@ -171,7 +171,7 @@ printh_t *init_help_s(const char *format, va_list args)
 
 
 /**
- * exit_busy_reset - Reset values of busy, width, precision, and dot to zero
+ * exit_busy_reset - Reset values to zero
  * upon exit of busy.
  * @help_s: Pointer to structure.
  * @reset_mods: Flag indicator to reset mods. 1 for reset, 0 do nothing.
